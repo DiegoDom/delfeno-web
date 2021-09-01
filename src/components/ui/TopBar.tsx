@@ -30,9 +30,9 @@ export const TopBar = () => {
 
                 <nav className="nav-menu d-none d-lg-block">
                     <ul>
-                    <li className="active"><a href="index.html">Home</a></li>
+                    <li className="active"><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#services" /* onClick={ (event) => { event.preventDefault(); } } */>Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#team">Team</a></li>
                     <li className="drop-down"><a href="">Drop Down</a>
