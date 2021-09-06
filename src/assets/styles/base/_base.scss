@@ -156,7 +156,7 @@ body {
     background: #fff;
     transition: all 0.5s;
     z-index: 997;
-    padding: 25px 0;
+    padding: 5px 0;
     top: 40px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   }
@@ -185,7 +185,8 @@ body {
   }
   
   #header .logo img {
-    max-height: 40px;
+    // max-height: 60px;
+    width: 5em;
   }
   
   @media (max-width: 992px) {
@@ -441,9 +442,10 @@ body {
   #hero {
     width: 100%;
     height: 75vh;
-    background: url("../../img/hero-bg.jpg") top left;
+    background: url("../../img/cover-delf.jpg") top left;
     background-size: cover;
     position: relative;
+    background-position-x: 80%;
   }
   
   #hero:before {
@@ -734,7 +736,7 @@ body {
   }
   
   .featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
-    color: #fff;
+    color: #000;
   }
   
   .featured-services .icon-box:hover .icon i {
@@ -942,7 +944,7 @@ body {
     box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);
   }
   
-  .services .icon-box:hover h4 a, .services .icon-box:hover .icon i {
+  .services .icon-box:hover h4, .services .icon-box:hover .icon i {
     color: $primary;
   }
   
@@ -955,7 +957,7 @@ body {
   --------------------------------------------------------------*/
   .testimonials {
     padding: 80px 0;
-    background: url("../../img/testimonials-bg.jpg") no-repeat;
+    background: url("../../img/servers_customers_bg.jpg") no-repeat;
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -968,7 +970,7 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
   }
   
   .testimonials .section-header {
@@ -1595,7 +1597,7 @@ body {
     padding: 12px 15px;
   }
   
-  .contact .php-email-form button[type="submit"] {
+  .contact .php-email-form button[type="button"] {
     background: $primary;
     border: 0;
     padding: 10px 30px;
@@ -1604,7 +1606,7 @@ body {
     border-radius: 4px;
   }
   
-  .contact .php-email-form button[type="submit"]:hover {
+  .contact .php-email-form button[type="button"]:hover {
     background: $secondary;
   }
   
@@ -1668,7 +1670,7 @@ body {
     width: calc(100% - 100px);
   }
   
-  #footer .footer-newsletter form input[type="submit"] {
+  #footer .footer-newsletter form input[type="button"] {
     position: absolute;
     top: 0;
     right: 0;
@@ -1684,7 +1686,7 @@ body {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   }
   
-  #footer .footer-newsletter form input[type="submit"]:hover {
+  #footer .footer-newsletter form input[type="button"]:hover {
     background: $secondary;
   }
   

@@ -6,6 +6,7 @@
 */
 
 const customInitFunction = () => {
+  console.log('Custom Init function disparada');
   !(function($) {
     "use strict";
   
@@ -224,5 +225,3 @@ const customInitFunction = () => {
   
   })(jQuery);
 };
-
-customInitFunction();
