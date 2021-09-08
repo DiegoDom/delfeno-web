@@ -6,7 +6,7 @@ export const Faqs = () => {
             <div className="container" data-aos="fade-up">
                 <div className="section-title">
                     <h2>F.A.Q</h2>
-                    <h3>Frequently Asked <span>Questions</span></h3>
+                    <h3>Preguntas <span>Frecuentes</span></h3>
                     <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
                 </div>
 

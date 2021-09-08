@@ -31,19 +31,17 @@ export const Contact = () => {
                     <div className="col-lg-3 col-md-6">
                         <div className="info-box  mb-4">
                         <i className="bx bx-phone-call"></i>
-                        <h3>Call Us</h3>
-                        <p>+52 (33) 3813 3336</p>
+                        <h3>Teléfono</h3>
+                        <p>(33) 3650 9320</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="row" data-aos="fade-up" data-aos-delay="100">
 
-                    {/* <iframe  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> */}
-
                     <div className="col-lg-6 ">
                         <iframe className="mb-4 mb-lg-0" 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.713004886229!2d-103.41485248589471!3d20.681251904928335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae8cf6e6578f%3A0xc4b1affb052847f7!2sC.%20Libra%20356%2C%20Juan%20Manuel%20Vallarta%2C%2045120%20Zapopan%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1630952631391!5m2!1ses-419!2smx"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d466.58929788182724!2d-103.4125829185928!3d20.681195865962486!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af28ae098a3b%3A0x54ec8e9cccfc97b1!2sDELFENO%20-%20Tecnolog%C3%ADa%20Interactiva%20de%20Occidente!5e0!3m2!1ses-419!2smx!4v1631073319265!5m2!1ses-419!2smx"
                             style={{ border:0, width: '100%' , height: '384px' }} title="Contact" allowFullScreen={ true }></iframe>
                     </div>
 

@@ -21,17 +21,18 @@ export const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3 col-md-6 footer-contact">
-                        <h3>BizLand<span>.</span></h3>
+                        {/* <h3>Delfeno<span>.</span></h3> */}
+                        <img src="assets/img/logo_oficial_delfeno.png" alt="Logo delfeno" className="img-fluid w-75 mb-3"/>
                         <p>
-                            A108 Adam Street <br/>
-                            New York, NY 535022<br/>
-                            United States <br/><br/>
-                            <strong>Phone:</strong> +1 5589 55488 55<br/>
-                            <strong>Email:</strong> info@example.com<br/>
+                            Libra 356 Piso 1 <br/>
+                            Juan Manuel Vallarta 45120<br/>
+                            Zapopan Jalisco <br/><br/>
+                            <strong>Telefono:</strong> (33) 3650 9320<br/>
+                            <strong>Email:</strong> contacto@delfeno.com.mx<br/>
                         </p>
                     </div>
                     <div className="col-lg-3 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
+                        <h4>Mapa del sitio</h4>
                         <ul>
                         <li><i className="bx bx-chevron-right"></i> <a href="#header">Inicio</a></li>
                         <li><i className="bx bx-chevron-right"></i> <a href="#about">¿Quienes somos?</a></li>

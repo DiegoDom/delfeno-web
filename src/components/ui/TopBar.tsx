@@ -9,7 +9,7 @@ export const TopBar = () => {
                 <div className="container d-flex">
                     <div className="contact-info mr-auto">
                         <i className="icofont-envelope"></i> <a href="mailto:contact@example.com">contacto@delfeno.com.mx</a>
-                        <i className="icofont-phone"></i> +52 (33) 3813 3336
+                        <i className="icofont-phone"></i> (33) 3650 9320
                     </div>
                     <div className="social-links">
                         <a href="#" className="twitter"><i className="icofont-twitter"></i></a>

@@ -5,9 +5,9 @@ export const Pricing = () => {
         <section id="pricing" className="pricing">
             <div className="container" data-aos="fade-up">
                 <div className="section-title">
-                    <h2>Pricing</h2>
-                    <h3>Check our <span>Pricing</span></h3>
-                    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+                    <h2>Paquetes</h2>
+                    <h3>Checa nuestros <span>paquetes</span></h3>
+                    <p>Somos tú mejor opción, con precios y servicios de calidad que no vas a encontrar en otro lugar.</p>
                 </div>
                 <div className="row">
                     <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
